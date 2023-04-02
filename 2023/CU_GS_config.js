@@ -2,7 +2,7 @@ var config_data = `
 {
   "enable_google_sheets": "true",
   "title": "4188 Scouting PASS 2023",
-  "page_title": "Charged Up",
+  "page_title": "4188 Scouting-Charged Up",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Name",
