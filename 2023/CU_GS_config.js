@@ -22,19 +22,12 @@ var config_data = `
       "disabled": "true"
     },
     { "name": "Event",
-      "gsCol": "level",
+      "gsCol": "Level",
       "code": "l",
       "type": "level",
-      "choices": {
-        "GAALB": "Albany<br>",
-        "GADAL": "Dalton<br>",
-        "SCAND": "Anderson<br>"
-        "GAGWI": "Gwinnett<br>"
-        "GACAR": "Carrolton<br>"
-        "SCHAR": "Hartsville<br>"
-        "GAMAC": "Macon"
-     },
-      "defaultValue": "Dalton"
+      "size": 10,
+      "maxSize": 25,
+      "required": "true"
     },
     { "name": "Match #",
       "code": "m",
