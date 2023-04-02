@@ -84,11 +84,6 @@ var config_data = `
       "showUndo": "false",
       "shape": "circle 12 black red true"
     },
-    { "name": "Crossed Cable",
-      "code": "acc",
-      "gsCol": "autoCrossedCable",
-      "type": "bool"
-    },
     { "name": "Crossed Charging Station",
       "code": "acs",
       "gsCol": "autoCrossedCharginStation",
@@ -190,53 +185,16 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
-      "code": "ds",
-      "gsCol": "driverSkill",
-      "type": "radio",
-      "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Links Scored",
+       { "name": "Links Scored",
       "code": "ls",
       "gsCol": "linksScored",
       "type": "counter"
     },
-    { "name": "Defense Rating",
-      "code": "dr",
-      "gsCol": "defenseRating",
-      "type": "radio",
-      "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
-        "x": "Did not play defense"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Swerve drive?",
+    
+     { "name": "Swerve drive?",
       "code": "sd",
       "gsCol": "swerveDrive",
       "type": "bool"
-    },
-    { "name": "Speed Rating",
-      "code": "sr",
-      "gsCol": "speedRating",
-      "type": "radio",
-      "choices": {
-        "1": "1 (slow)<br>",
-        "2": "2<br>",
-        "3": "3<br>",
-        "4": "4<br>",
-        "5": "5 (fast)"
-      },
-      "defaultValue":"3"
     },
     { "name": "Died/Immobilized",
       "code": "die",
@@ -263,8 +221,8 @@ var config_data = `
       "code": "co",
       "gsCol": "comments",
       "type": "text",
-      "size": 15,
-      "maxSize": 50
+      "size": 30,
+      "maxSize": 150
     }
   ]
 }`;
