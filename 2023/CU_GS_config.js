@@ -17,9 +17,9 @@ var config_data = `
       "gsCol": "event",
       "code": "e",
       "type": "event",
-      "defaultValue": "WED TEST",
+      "defaultValue": "",
       "required": "true",
-      "disabled": "true"
+      "disabled": "false"
     },
     { "name": "Match Level",
       "gsCol": "level",
