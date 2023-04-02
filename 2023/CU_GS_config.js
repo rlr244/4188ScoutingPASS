@@ -20,29 +20,33 @@ var config_data = `
       "defaultValue": "Pre Scouting",
       "disabled": "true"
     },
-    { "name": "Peachtree District Event",
-      "gsCol": "Level",
+    { "name": "Event",
+      "code": "e",
+      "gsCol": "event",
+      "type": "event",
+      "defaultValue": "2022carv",
+      "required": "true",
+      "disabled": "true"
+    },
+    { "name": "Match Level",
       "code": "l",
-      "type": "scouter",
-      "size": 10,
-      "maxSize": 25,
+      "gsCol": "level",
+      "type": "level",
+      "choices": {
+        "qm": "Quals<br>",
+        "de": "Double Elimination<br>",
+        "f": "Finals"
+      },
+      "defaultValue": "qm",
       "required": "true"
     },
     { "name": "Match #",
       "code": "m",
-      "gsCol": "number",
+      "gsCol": "matchNum",
       "type": "match",
       "min": 1,
       "max": 100,
       "required": "true"
-    
-    },
-    { "name": "Team #",
-      "code": "t",
-      "gsCol": "teamNumber",
-      "type": "team",
-      "min": 1,
-      "max": 99999
     },
     { "name": "Robot",
       "code": "r",
@@ -56,11 +60,18 @@ var config_data = `
         "r3": "Red-3",
         "b3": "Blue-3"
       },
-      "required":"true" 
-      },
+      "required":"true"
+    },
+    { "name": "Team #",
+      "code": "t",
+      "gsCol": "teamNum",
+      "type": "team",
+      "min": 1,
+      "max": 99999
+    },
     { "name": "Auto Start Position",
       "code": "as",
-      "gsCol": "autoStartingLocation",
+      "gsCol": "autoStartPosition",
       "type": "field_image",
       "filename": "2023/field_image.png",
       "clickRestriction": "one",
