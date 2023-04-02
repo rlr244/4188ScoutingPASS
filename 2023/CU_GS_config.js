@@ -21,7 +21,7 @@ var config_data = `
       "required": "true",
       "disabled": "true"
     },
-    { "name": "Event",
+    { "name": "Peachtree District Event",
       "gsCol": "Level",
       "code": "l",
       "type": "scouter",
@@ -45,6 +45,20 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
+    { "name": "Robot",
+      "code": "r",
+      "gsCol": "robot",
+      "type": "robot",
+      "choices": {
+        "r1": "Red-1",
+        "b1": "Blue-1<br>",
+        "r2": "Red-2",
+        "b2": "Blue-2<br>",
+        "r3": "Red-3",
+        "b3": "Blue-3"
+      },
+      "required":"true" 
+      },
     { "name": "Auto Start Position",
       "code": "as",
       "gsCol": "autoStartingLocation",
