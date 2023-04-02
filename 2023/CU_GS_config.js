@@ -1,11 +1,11 @@
 var config_data = `
 {
   "enable_google_sheets": "true",
-  "title": "Scouting PASS 2023",
+  "title": "4188 Scouting PASS 2023",
   "page_title": "Charged Up",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Scouter Name",
       "gsCol": "name",
       "code": "s",
       "type": "scouter",
@@ -21,17 +21,19 @@ var config_data = `
       "required": "true",
       "disabled": "true"
     },
-    { "name": "Match Level",
+    { "name": "Event",
       "gsCol": "level",
       "code": "l",
       "type": "level",
       "choices": {
-        "qm": "Quals<br>",
-        "de": "Double Elimination<br>",
-        "f": "Finals"
-      },
-      "defaultValue": "qm",
-      "required": "true"
+        "GAALB": "Albany<br>",
+        "GADAL": "Dalton<br>",
+        "SCAND": "Anderson"
+        "GAGWI": "Gwinnett"
+        "GACAR": "Carrolton"
+        "SCHAR": "Hartsville"
+        "GAMAC": "Macon"
+     
     },
     { "name": "Match #",
       "code": "m",
@@ -40,20 +42,7 @@ var config_data = `
       "min": 1,
       "max": 100,
       "required": "true"
-    },
-    { "name": "Robot",
-      "code": "r",
-      "gsCol": "robot",
-      "type": "robot",
-      "choices": {
-        "r1": "Red-1",
-        "b1": "Blue-1<br>",
-        "r2": "Red-2",
-        "b2": "Blue-2<br>",
-        "r3": "Red-3",
-        "b3": "Blue-3"
-      },
-      "required":"true"
+    
     },
     { "name": "Team #",
       "code": "t",
