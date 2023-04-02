@@ -19,7 +19,7 @@ var config_data = `
       "type": "event",
       "defaultValue": "",
       "required": "true",
-      "disabled": "false"
+      
     },
     { "name": "Match Level",
       "gsCol": "level",
