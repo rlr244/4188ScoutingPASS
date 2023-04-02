@@ -17,9 +17,9 @@ var config_data = `
       "gsCol": "event",
       "code": "e",
       "type": "event",
-      "defaultValue": "",
+      "defaultValue": "Pre Scouting",
       "required": "true",
-      
+      "disabled": "true"
     },
     { "name": "Match Level",
       "gsCol": "level",
