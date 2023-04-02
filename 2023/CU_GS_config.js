@@ -18,7 +18,6 @@ var config_data = `
       "code": "e",
       "type": "event",
       "defaultValue": "Pre Scouting",
-      "required": "true",
       "disabled": "true"
     },
     { "name": "Peachtree District Event",
