@@ -24,7 +24,7 @@ var config_data = `
     { "name": "Event",
       "gsCol": "Level",
       "code": "l",
-      "type": "level",
+      "type": "scouter",
       "size": 10,
       "maxSize": 25,
       "required": "true"
