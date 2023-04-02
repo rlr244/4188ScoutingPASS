@@ -20,14 +20,7 @@ var config_data = `
       "defaultValue": "Pre Scouting",
       "disabled": "true"
     },
-    { "name": "Event",
-      "code": "e",
-      "gsCol": "event",
-      "type": "event",
-      "defaultValue": "2022carv",
-      "required": "true",
-      "disabled": "true"
-    },
+ 
     { "name": "Match Level",
       "code": "l",
       "gsCol": "level",
