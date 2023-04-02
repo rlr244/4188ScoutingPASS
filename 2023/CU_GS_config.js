@@ -28,12 +28,13 @@ var config_data = `
       "choices": {
         "GAALB": "Albany<br>",
         "GADAL": "Dalton<br>",
-        "SCAND": "Anderson"
-        "GAGWI": "Gwinnett"
-        "GACAR": "Carrolton"
-        "SCHAR": "Hartsville"
+        "SCAND": "Anderson<br>"
+        "GAGWI": "Gwinnett<br>"
+        "GACAR": "Carrolton<br>"
+        "SCHAR": "Hartsville<br>"
         "GAMAC": "Macon"
-     
+     },
+      "defaultValue": "Dalton"
     },
     { "name": "Match #",
       "code": "m",
