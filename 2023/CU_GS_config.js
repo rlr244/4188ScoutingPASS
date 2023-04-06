@@ -17,7 +17,7 @@ var config_data = `
       "gsCol": "event",
       "code": "e",
       "type": "event",
-      "defaultValue": "gacmp",
+      "defaultValue": "2023gacmp",
       "disabled": "true"
     },
  
