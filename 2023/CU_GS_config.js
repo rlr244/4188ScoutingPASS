@@ -17,7 +17,7 @@ var config_data = `
       "gsCol": "event",
       "code": "e",
       "type": "event",
-      "defaultValue": "GACMP",
+      "defaultValue": "Pre Scouting",
       "disabled": "true"
     },
  
@@ -221,8 +221,8 @@ var config_data = `
       "code": "co",
       "gsCol": "comments",
       "type": "text",
-      "size": 60,
-      "maxSize": 250
+      "size": 30,
+      "maxSize": 150
     }
   ]
 }`;
