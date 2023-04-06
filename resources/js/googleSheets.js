@@ -16,7 +16,7 @@ function setUpGoogleSheets() {
 
       fetch(scriptURL, { method: 'POST', mode: 'no-cors', body: fd })
         .then(response => { 
-              alert('Success!', response) })
+              alert('Thanks Scout! You are awesome!', response) })
         .catch(error => {
               alert('Error!', error.message)})
 
