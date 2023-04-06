@@ -221,8 +221,8 @@ var config_data = `
       "code": "co",
       "gsCol": "comments",
       "type": "text",
-      "size": 30,
-      "maxSize": 150
+      "size": 60,
+      "maxSize": 250
     }
   ]
 }`;
